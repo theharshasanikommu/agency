@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@mdx-js/rollup": "^3.0.0",
+    "@rollup/plugin-alias": "^5.0.0",
+    "reading-time": "^2.0.0-1"
+  }
+}
