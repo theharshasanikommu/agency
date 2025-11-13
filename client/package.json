@@ -2,12 +2,21 @@
   "name": "mediamanager4u-client",
   "private": true,
   "version": "1.0.0",
+  "description": "Full-stack SaaS platform for digital marketing agency",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build":"npm --prefix client install && npm --prefix client run build",
+    "build": "vite build",
     "preview": "vite preview"
   },
+  "keywords": [
+    "saas",
+    "agency",
+    "crm",
+    "marketing"
+  ],
+  "author": "Harshavardhan Reddy Sanikommu",
+  "license": "MIT",
   "dependencies": {
     "@mdx-js/rollup": "^3.1.1",
     "@react-oauth/google": "^0.12.1",
