@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: mediamanager4u-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node server/server.js
+    envVars:
+      - key: MONGODB_URI
+        value: your-mongodb-uri
+      - key: PORT
+        value: '5001'
+      - key: NODE_ENV
+        value: production
