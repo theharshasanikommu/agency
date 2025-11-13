@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
+    "lighthouse": "^13.0.1",
     "nodemon": "^3.0.2"
   }
 }
